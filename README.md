@@ -33,6 +33,8 @@ This project focuses on predicting hospital readmissions for heart failure patie
 
 - Home Page
 ![Home Page](https://github.com/yashbagga5/Heartelligence/blob/c1622f530c440668295e4717d6f73cf2dd9dba93/Home%20page%201.jpg)
+![Home Page Continued](https://github.com/yashbagga5/Heartelligence/blob/cb64642c703c145fdc19232c78c5c2a6beb3c045/Home%20Page%202.jpg)
+
 
 🧪 Technologies Used
 

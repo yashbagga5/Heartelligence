@@ -74,39 +74,39 @@ This project focuses on predicting hospital readmissions for heart failure patie
 - About:	Tech stack and team information
 
 
-🏗️ Project Architecture
+🏗️ PROJECT ARCHITECTURE
 
-1. Backend (Data Processing & Modeling – Jupyter Notebook)
+**1. Backend (Data Processing & Modeling – Jupyter Notebook)**
    
   a) Data Sources: CSV files from the MIMIC-III clinical database:
   
-    ADMISSIONS.csv (admission data)
-    DIAGNOSES_ICD.csv (diagnosis codes)
-    PATIENTS.csv (demographics)
+    - ADMISSIONS.csv (admission data)
+    - DIAGNOSES_ICD.csv (diagnosis codes)
+    - PATIENTS.csv (demographics)
 
   b) Preprocessing Steps:
   
-    Filtered diagnosis codes related to heart failure (ICD-9).
-    Merged patient, diagnosis, and admission data.
-    Calculated time between discharges and next admissions.
-    Labeled readmissions within 30 days (readmit_30d).
-    Performed feature engineering (e.g., age, gender).
+    - Filtered diagnosis codes related to heart failure (ICD-9).
+    - Merged patient, diagnosis, and admission data.
+    - Calculated time between discharges and next admissions.
+    - Labeled readmissions within 30 days (readmit_30d).
+    - Performed feature engineering (e.g., age, gender).
 
   c) Model Training:
   
-    Split the data into training and test sets.
-    Trained an XGBoostClassifier to predict 30-day readmission.
-    Evaluated the model using accuracy, precision, recall, F1 score, and AUC-ROC.
-    Saved feature importance plots and prediction functions.
+    - Split the data into training and test sets.
+    - Trained an XGBoostClassifier to predict 30-day readmission.
+    - Evaluated the model using accuracy, precision, recall, F1 score, and AUC-ROC.
+    - Saved feature importance plots and prediction functions.
 
-2. Frontend (Data Analysis & Interactive Dashboard)
+**2. Frontend (Data Analysis & Interactive Dashboard)**
    
   a) Exploratory Data Analysis (Notebook)
   
-    Class Balance Check: Visualized how many patients were readmitted within 30 days.
-    Correlation Heatmaps: To identify relationships between features.    
-    Bar Plots and Histograms: For age distribution, gender breakdown, and length of stay.
-    Top Feature Visualizations: Feature importance plotted using sns.barplot.
+    - Class Balance Check: Visualized how many patients were readmitted within 30 days.
+    - Correlation Heatmaps: To identify relationships between features.    
+    - Bar Plots and Histograms: For age distribution, gender breakdown, and length of stay.
+    - Top Feature Visualizations: Feature importance plotted using sns.barplot.
 
    b) Interactive Data Exploration
    
@@ -114,43 +114,43 @@ This project focuses on predicting hospital readmissions for heart failure patie
 
      🔍 Overview Page
      
-      Key metrics: average heart rate, blood pressure, oxygen level.
-      Time-series trend charts for vitals.
+      - Key metrics: average heart rate, blood pressure, oxygen level.
+      - Time-series trend charts for vitals.
 
       📊 Basic Analysis Tab
       
       Users can select:
-      Custom date ranges
-      Metrics like heart rate, BMI, etc.
-      Time grouping (daily, weekly, monthly)
-      Display summary statistics: mean, median, standard deviation.
-      Distribution plots with adjustable bins.
+      - Custom date ranges
+      - Metrics like heart rate, BMI, etc.
+      - Time grouping (daily, weekly, monthly)
+      - Display summary statistics: mean, median, standard deviation.
+      - Distribution plots with adjustable bins.
 
       🧠 Advanced Insights Tab
       
-      Correlation Matrix: Heatmap of inter-metric correlations.
-      Risk Factor Analysis: Measures how individual features impact risk score.
-      Anomaly Detection:
-      Uses z-score logic (2 standard deviations) to find outliers.
-      Visual markers highlight anomalies on time-series plots.
+      - Correlation Matrix: Heatmap of inter-metric correlations.
+      - Risk Factor Analysis: Measures how individual features impact risk score.
+      - Anomaly Detection:
+      - Uses z-score logic (2 standard deviations) to find outliers.
+      - Visual markers highlight anomalies on time-series plots.
 
       🧑‍⚕️ Patient Comparison Tab
       
       Compares two patient groups (e.g., Male vs. Female) across:
-      Heart rate
-      Blood pressure
-      Oxygen level
-      BMI
-      Risk score
-      Radar chart and tabular comparisons.
+      - Heart rate
+      - Blood pressure
+      - Oxygen level
+      - BMI
+      - Risk score
+      - Radar chart and tabular comparisons.
 
      💡 Tools Used
      
-      pandas / numpy: Data manipulation and numerical analysis.
-      matplotlib / seaborn: Static plots and graphs in the notebook.
-      plotly.express / plotly.graph_objects: Interactive plots in Streamlit.
-      scikit-learn: For scaling, training, and evaluating models.
-      streamlit: For building real-time, interactive dashboards.
+      - pandas / numpy: Data manipulation and numerical analysis.
+      - matplotlib / seaborn: Static plots and graphs in the notebook.
+      - plotly.express / plotly.graph_objects: Interactive plots in Streamlit.
+      - scikit-learn: For scaling, training, and evaluating models.
+      - streamlit: For building real-time, interactive dashboards.
 
 
 🛠️STRUCTURE
@@ -170,12 +170,12 @@ This project focuses on predicting hospital readmissions for heart failure patie
 
 📈 Model Performance
 
-      Accuracy: ~86%
-      Precision: ~90%
-      f1 Score: ~87%
-      Confusion Matrix:  [[10  1]
+      - Accuracy: ~86%
+      - Precision: ~90%
+      - f1 Score: ~87%
+      - Confusion Matrix:  [[10  1]
                          [ 2  9]]
-      Key Features: Age, BMI, Heart Rate, Blood Pressure, Diabetes, Smoking, Cholesterol
+      - Key Features: Age, BMI, Heart Rate, Blood Pressure, Diabetes, Smoking, Cholesterol
 
 
 🚀 Future Scope

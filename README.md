@@ -74,18 +74,25 @@ This project focuses on predicting hospital readmissions for heart failure patie
 
 🌐 Dashboard Sections
 
-- Overview:	Displays heart rate trends, averages, and risk indicators
 - Data Analysis:	Summary statistics, time series, anomaly detection
-- Predictions:	Risk prediction form and model performance
-- Emergency Measures:	Instructions and preparedness guide for emergencies
-- Health Journal:	Personal wellness tracking (mood, sleep, exercise)
-- Lifestyle Guide:	Nutrition, exercise, and stress management tools
-- About:	Tech stack and team information
-
-  **DATA ANALYSIS**
 ![Data Analysis](https://github.com/yashbagga5/Heartelligence/blob/1a36e302f532b9381e3e1b51856b325a3939c6da/Data%20Analysis%20(Basic%20Analysis).jpg)
 ![Data Analysis](https://github.com/yashbagga5/Heartelligence/blob/1a36e302f532b9381e3e1b51856b325a3939c6da/Data%20Analysis%20(Advanced%20Insights).jpg)
 ![Data Analysis](https://github.com/yashbagga5/Heartelligence/blob/1a36e302f532b9381e3e1b51856b325a3939c6da/Data%20Analysis%20(patient%20Comparison).jpg)
+
+
+- Predictions:	Risk prediction form and model performance
+![Predictions](https://github.com/yashbagga5/Heartelligence/blob/305302866d78d50b7edc7ef0ef306472c8cb2c19/Prediction%20(Quick%20Assement).jpg)
+![Predictions](https://github.com/yashbagga5/Heartelligence/blob/305302866d78d50b7edc7ef0ef306472c8cb2c19/Prediction%20(Quick%20Assement)%202.jpg)
+![Predictions](https://github.com/yashbagga5/Heartelligence/blob/305302866d78d50b7edc7ef0ef306472c8cb2c19/Prediction%20(Detailed%20Analysis)%20.jpg)
+![Predictions](https://github.com/yashbagga5/Heartelligence/blob/305302866d78d50b7edc7ef0ef306472c8cb2c19/Prediction%20(Hiatorical%20Trends)%20.jpg)
+![Predictions](https://github.com/yashbagga5/Heartelligence/blob/305302866d78d50b7edc7ef0ef306472c8cb2c19/Prediction%20(Health%20Journal).jpg)
+![Predictions](https://github.com/yashbagga5/Heartelligence/blob/305302866d78d50b7edc7ef0ef306472c8cb2c19/Prediction%20(Lifstyle%20guide).jpg)
+
+
+- Emergency Measures:	Instructions and preparedness guide for emergencies
+- About:	Tech stack and team information
+
+  **DATA ANALYSIS**
 
 🏗️ PROJECT ARCHITECTURE
 

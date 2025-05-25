@@ -45,9 +45,8 @@ This project focuses on predicting hospital readmissions for heart failure patie
 - train_test_split: Function from sklearn to split your dataset into training and test sets.
 - classification_report: Generates precision, recall, F1-score, and support metrics.
 - XGBClassifier: A high-performance machine learning model (gradient boosting) from XGBoost, used for classification tasks.
-_
-**
-MACHINE LEARNING APPROACH**_
+
+**MACHINE LEARNING APPROACH**
 
 📁 Data Preparation (Notebook)
 

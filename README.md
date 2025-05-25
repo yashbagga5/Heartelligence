@@ -75,12 +75,15 @@ This project focuses on predicting hospital readmissions for heart failure patie
 🌐 Dashboard Sections
 
 - **Data Analysis:	Summary statistics, time series, anomaly detection**
+
+
 ![Data Analysis](https://github.com/yashbagga5/Heartelligence/blob/1a36e302f532b9381e3e1b51856b325a3939c6da/Data%20Analysis%20(Basic%20Analysis).jpg)
 ![Data Analysis](https://github.com/yashbagga5/Heartelligence/blob/1a36e302f532b9381e3e1b51856b325a3939c6da/Data%20Analysis%20(Advanced%20Insights).jpg)
 ![Data Analysis](https://github.com/yashbagga5/Heartelligence/blob/1a36e302f532b9381e3e1b51856b325a3939c6da/Data%20Analysis%20(patient%20Comparison).jpg)
 
 
 - **Predictions:	Risk prediction form and model performance**
+
 
 ![Predictions](https://github.com/yashbagga5/Heartelligence/blob/305302866d78d50b7edc7ef0ef306472c8cb2c19/Prediction%20(Quick%20Assement).jpg)
 ![Predictions](https://github.com/yashbagga5/Heartelligence/blob/305302866d78d50b7edc7ef0ef306472c8cb2c19/Prediction%20(Quick%20Assement)%202.jpg)
@@ -91,10 +94,17 @@ This project focuses on predicting hospital readmissions for heart failure patie
 
 
 - **Emergency Measures:	Instructions and preparedness guide for emergencies**
+
+
 ![Emergency Measures](https://github.com/yashbagga5/Heartelligence/blob/ccb72e1b3aa49ab6ee5e311495da0a9cc7941c28/Emergency%20measures.jpg)
 ![Emergency Measures](https://github.com/yashbagga5/Heartelligence/blob/ccb72e1b3aa49ab6ee5e311495da0a9cc7941c28/Emergenncy%20guide%20(Quick%20Response%20guide).jpg)
 
+
 - **About:	Tech stack and team information**
+
+
+![About](https://github.com/yashbagga5/Heartelligence/blob/8fed342e39c5218037bacc3e5c3f6277013d6462/About%20the%20dashboard.jpg)
+![About](https://github.com/yashbagga5/Heartelligence/blob/10b9e45860c0133f7a86585a075eecb699fc4ec8/About%20the%20dashboard%202.jpg)
 
 🏗️ PROJECT ARCHITECTURE
 

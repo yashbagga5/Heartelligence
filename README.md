@@ -216,9 +216,16 @@ This project focuses on predicting hospital readmissions for heart failure patie
                             [ 2  9]
       - Key Features: Age, BMI, Heart Rate, Blood Pressure, Diabetes, Smoking, Cholesterol
 
-      
+**Accuracy**
 ![Accuracy](https://github.com/yashbagga5/Heartelligence/blob/ff7bb5f55ee72b9a4b85083be829f2d454eced0e/Accuracy.jpg)
+
+
+**Confusion Matrix**
 ![Confusion Matrix](https://github.com/yashbagga5/Heartelligence/blob/0e5fd53d6f577ee3affa99a3e71264d4c13e34bc/Confusion%20matrix.jpg)
+
+
+**ROC CURVE**
+![ROC Curve](https://github.com/yashbagga5/Heartelligence/blob/541abe6bd16bdf5669312ba891bc3487e7f733b5/ROC%20Curve.jpg)
 
 ▶️ How to Run
 

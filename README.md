@@ -254,3 +254,8 @@ As healthcare becomes increasingly data-driven, this project has strong potentia
 7. 🏥 Clinician Dashboard
 8. 📋 Automatic Emergency Alerts
 
+🧑‍💻 Authors
+1. Chaitanya — chaitanya.ghanghas@gmail.com
+2. Yash Bagga — yashbagga5@gmail.com
+3. Aditi — 1.aditi.238@gmail.com
+

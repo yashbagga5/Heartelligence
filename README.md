@@ -216,6 +216,8 @@ This project focuses on predicting hospital readmissions for heart failure patie
                             [ 2  9]
       - Key Features: Age, BMI, Heart Rate, Blood Pressure, Diabetes, Smoking, Cholesterol
 
+![Accuracy](https://github.com/yashbagga5/Heartelligence/blob/ff7bb5f55ee72b9a4b85083be829f2d454eced0e/Accuracy.jpg)
+
 ▶️ How to Run
 
 1. Clone or Download the Project

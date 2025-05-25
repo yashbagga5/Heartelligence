@@ -82,6 +82,10 @@ This project focuses on predicting hospital readmissions for heart failure patie
 - Lifestyle Guide:	Nutrition, exercise, and stress management tools
 - About:	Tech stack and team information
 
+  **DATA ANALYSIS**
+![Data Analysis](https://github.com/yashbagga5/Heartelligence/blob/1a36e302f532b9381e3e1b51856b325a3939c6da/Data%20Analysis%20(Basic%20Analysis).jpg)
+![Data Analysis](https://github.com/yashbagga5/Heartelligence/blob/1a36e302f532b9381e3e1b51856b325a3939c6da/Data%20Analysis%20(Advanced%20Insights).jpg)
+![Data Analysis](https://github.com/yashbagga5/Heartelligence/blob/1a36e302f532b9381e3e1b51856b325a3939c6da/Data%20Analysis%20(patient%20Comparison).jpg)
 
 🏗️ PROJECT ARCHITECTURE
 

@@ -225,6 +225,7 @@ This project focuses on predicting hospital readmissions for heart failure patie
 
 
 **ROC CURVE**
+
 ![ROC Curve](https://github.com/yashbagga5/Heartelligence/blob/541abe6bd16bdf5669312ba891bc3487e7f733b5/ROC%20Curve.jpg)
 
 ▶️ How to Run

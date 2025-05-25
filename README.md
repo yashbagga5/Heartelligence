@@ -186,8 +186,8 @@ This project focuses on predicting hospital readmissions for heart failure patie
       - Accuracy: ~86%
       - Precision: ~90%
       - f1 Score: ~87%
-      - Confusion Matrix:  [[10  1]
-                         [ 2  9]]
+      - Confusion Matrix:   [10  1]
+                            [ 2  9]
       - Key Features: Age, BMI, Heart Rate, Blood Pressure, Diabetes, Smoking, Cholesterol
 
 

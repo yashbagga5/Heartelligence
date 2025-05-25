@@ -3,5 +3,3 @@ numpy
 pandas
 plotly
 scikit-learn
-python-dateutil
-pytz 

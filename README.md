@@ -29,49 +29,49 @@ This project focuses on predicting hospital readmissions for heart failure patie
 
 🧪 Technologies Used
 
-Pandas / NumPy:	Data loading and preprocessing
-Scikit-learn:	Model training, evaluation, metrics
-XGBoost:	Predictive modeling (classification)
-Streamlit:	Web-based interactive UI
-Plotly:	Rich, interactive visualizations
-MIMIC-III Dataset:	Real-world medical data (ADMISSIONS.csv, DIAGNOSES_ICD.csv, PATIENTS.csv)
+- Pandas / NumPy:	Data loading and preprocessing
+- Scikit-learn:	Model training, evaluation, metrics
+- XGBoost:	Predictive modeling (classification)
+- Streamlit:	Web-based interactive UI
+- Plotly:	Rich, interactive visualizations
+- MIMIC-III Dataset:	Real-world medical data (ADMISSIONS.csv, DIAGNOSES_ICD.csv, PATIENTS.csv)
 
 
 📚 Explanation:
 
-pandas as pd: Used for data manipulation and analysis (especially with tables called DataFrames).
-numpy as np: Used for numerical operations, especially with arrays.
-datetime, timedelta: Used for handling and manipulating dates and times.
-train_test_split: Function from sklearn to split your dataset into training and test sets.
-classification_report: Generates precision, recall, F1-score, and support metrics.
-XGBClassifier: A high-performance machine learning model (gradient boosting) from XGBoost, used for classification tasks.
+- pandas as pd: Used for data manipulation and analysis (especially with tables called DataFrames).
+- numpy as np: Used for numerical operations, especially with arrays.
+- datetime, timedelta: Used for handling and manipulating dates and times.
+- train_test_split: Function from sklearn to split your dataset into training and test sets.
+- classification_report: Generates precision, recall, F1-score, and support metrics.
+- XGBClassifier: A high-performance machine learning model (gradient boosting) from XGBoost, used for classification tasks.
 
 
 Machine Learning Approach
 
 📁 Data Preparation (Notebook)
 
-Load CSVs from the MIMIC-III dataset
-Filter diagnosis codes for heart failure (ICD-9 codes)
-Merge relevant datasets: Diagnoses + Admissions + Patients
-Compute readmission risk based on features
-Train-test split and model evaluation
+- Load CSVs from the MIMIC-III dataset
+- Filter diagnosis codes for heart failure (ICD-9 codes)
+- Merge relevant datasets: Diagnoses + Admissions + Patients
+- Compute readmission risk based on features
+- Train-test split and model evaluation
 
 🤖 Model
 
-XGBoostClassifier in Jupyter Notebook
-RandomForestClassifier in Streamlit dashboard
-Evaluation metrics: accuracy, ROC-AUC, classification report
+- XGBoostClassifier in Jupyter Notebook
+- RandomForestClassifier in Streamlit dashboard
+- Evaluation metrics: accuracy, ROC-AUC, classification report
 
 🌐 Dashboard Sections
 
-Overview:	Displays heart rate trends, averages, and risk indicators
-Data Analysis:	Summary statistics, time series, anomaly detection
-Predictions:	Risk prediction form and model performance
-Emergency Measures:	Instructions and preparedness guide for emergencies
-Health Journal:	Personal wellness tracking (mood, sleep, exercise)
-Lifestyle Guide:	Nutrition, exercise, and stress management tools
-About:	Tech stack and team information
+- Overview:	Displays heart rate trends, averages, and risk indicators
+- Data Analysis:	Summary statistics, time series, anomaly detection
+- Predictions:	Risk prediction form and model performance
+- Emergency Measures:	Instructions and preparedness guide for emergencies
+- Health Journal:	Personal wellness tracking (mood, sleep, exercise)
+- Lifestyle Guide:	Nutrition, exercise, and stress management tools
+- About:	Tech stack and team information
 
 
 🏗️ Project Architecture

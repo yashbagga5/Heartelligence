@@ -12,14 +12,23 @@ This project focuses on predicting hospital readmissions for heart failure patie
 
 📊 Features
 
+
 📁 MIMIC-III dataset integration
+
 ⚙️ Data preprocessing and heart failure diagnosis filtering
+
 🤖 Machine learning prediction of readmission risk (using XGBoost and RandomForest)
+
 📈 Health trends visualization
+
 🧠 Risk score calculator
+
 📉 Correlation and anomaly detection
+
 🧾 Health journaling and lifestyle tracking
+
 🚨 Emergency preparedness guidance
+
 📋 Summary and performance reports
 
 🖼️ UI Preview

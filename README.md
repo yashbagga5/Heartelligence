@@ -193,17 +193,14 @@ This project focuses on predicting hospital readmissions for heart failure patie
 ▶️ How to Run
 
 1. Clone or Download the Project
-
-    git clone https://github.com/yashbagga5/Heartelligence
-   cd heartelligence
+    - git clone https://github.com/yashbagga5/Heartelligence
+    - cd heartelligence
    
-3. Install Requirements
-
-   pip install -r requirements.txt
+2. Install Requirements
+   - pip install -r requirements.txt
    
-5. Run the Dashboard
-
-   streamlit run app.py
+3. Run the Dashboard
+   - streamlit run app.py
 
 
 🚀 Future Scope

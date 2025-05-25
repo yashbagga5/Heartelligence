@@ -190,6 +190,16 @@ This project focuses on predicting hospital readmissions for heart failure patie
                             [ 2  9]
       - Key Features: Age, BMI, Heart Rate, Blood Pressure, Diabetes, Smoking, Cholesterol
 
+▶️ How to Run
+
+1. Clone or Download the Project
+   git clone https://github.com/your-repo/heart-failure-dashboard.git
+   cd heart-failure-dashboard
+2. Install Requirements
+   pip install -r requirements.txt
+3. Run the Dashboard
+   streamlit run app.py
+
 
 🚀 Future Scope
 

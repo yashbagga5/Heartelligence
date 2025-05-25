@@ -74,13 +74,14 @@ This project focuses on predicting hospital readmissions for heart failure patie
 
 🌐 Dashboard Sections
 
-- Data Analysis:	Summary statistics, time series, anomaly detection
+- **Data Analysis:	Summary statistics, time series, anomaly detection**
 ![Data Analysis](https://github.com/yashbagga5/Heartelligence/blob/1a36e302f532b9381e3e1b51856b325a3939c6da/Data%20Analysis%20(Basic%20Analysis).jpg)
 ![Data Analysis](https://github.com/yashbagga5/Heartelligence/blob/1a36e302f532b9381e3e1b51856b325a3939c6da/Data%20Analysis%20(Advanced%20Insights).jpg)
 ![Data Analysis](https://github.com/yashbagga5/Heartelligence/blob/1a36e302f532b9381e3e1b51856b325a3939c6da/Data%20Analysis%20(patient%20Comparison).jpg)
 
 
-- Predictions:	Risk prediction form and model performance
+- **Predictions:	Risk prediction form and model performance**
+
 ![Predictions](https://github.com/yashbagga5/Heartelligence/blob/305302866d78d50b7edc7ef0ef306472c8cb2c19/Prediction%20(Quick%20Assement).jpg)
 ![Predictions](https://github.com/yashbagga5/Heartelligence/blob/305302866d78d50b7edc7ef0ef306472c8cb2c19/Prediction%20(Quick%20Assement)%202.jpg)
 ![Predictions](https://github.com/yashbagga5/Heartelligence/blob/305302866d78d50b7edc7ef0ef306472c8cb2c19/Prediction%20(Detailed%20Analysis)%20.jpg)
@@ -89,10 +90,11 @@ This project focuses on predicting hospital readmissions for heart failure patie
 ![Predictions](https://github.com/yashbagga5/Heartelligence/blob/305302866d78d50b7edc7ef0ef306472c8cb2c19/Prediction%20(Lifstyle%20guide).jpg)
 
 
-- Emergency Measures:	Instructions and preparedness guide for emergencies
-- About:	Tech stack and team information
+- **Emergency Measures:	Instructions and preparedness guide for emergencies**
+![Emergency Measures](https://github.com/yashbagga5/Heartelligence/blob/ccb72e1b3aa49ab6ee5e311495da0a9cc7941c28/Emergency%20measures.jpg)
+![Emergency Measures](https://github.com/yashbagga5/Heartelligence/blob/ccb72e1b3aa49ab6ee5e311495da0a9cc7941c28/Emergenncy%20guide%20(Quick%20Response%20guide).jpg)
 
-  **DATA ANALYSIS**
+- **About:	Tech stack and team information**
 
 🏗️ PROJECT ARCHITECTURE
 

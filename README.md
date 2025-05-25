@@ -46,7 +46,8 @@ This project focuses on predicting hospital readmissions for heart failure patie
 - classification_report: Generates precision, recall, F1-score, and support metrics.
 - XGBClassifier: A high-performance machine learning model (gradient boosting) from XGBoost, used for classification tasks.
 
-**MACHINE LEARNING APPROACH**
+**MACHINE LEARNING APPROACH** 
+
 
 📁 Data Preparation (Notebook)
 
@@ -77,13 +78,13 @@ This project focuses on predicting hospital readmissions for heart failure patie
 
 1. Backend (Data Processing & Modeling – Jupyter Notebook)
    
-  a)Data Sources: CSV files from the MIMIC-III clinical database:
+  a) Data Sources: CSV files from the MIMIC-III clinical database:
   
     ADMISSIONS.csv (admission data)
     DIAGNOSES_ICD.csv (diagnosis codes)
     PATIENTS.csv (demographics)
 
-  b)Preprocessing Steps:
+  b) Preprocessing Steps:
   
     Filtered diagnosis codes related to heart failure (ICD-9).
     Merged patient, diagnosis, and admission data.
@@ -91,7 +92,7 @@ This project focuses on predicting hospital readmissions for heart failure patie
     Labeled readmissions within 30 days (readmit_30d).
     Performed feature engineering (e.g., age, gender).
 
-  c)Model Training:
+  c) Model Training:
   
     Split the data into training and test sets.
     Trained an XGBoostClassifier to predict 30-day readmission.
@@ -100,14 +101,14 @@ This project focuses on predicting hospital readmissions for heart failure patie
 
 2. Frontend (Data Analysis & Interactive Dashboard)
    
-  a)Exploratory Data Analysis (Notebook)
+  a) Exploratory Data Analysis (Notebook)
   
     Class Balance Check: Visualized how many patients were readmitted within 30 days.
     Correlation Heatmaps: To identify relationships between features.    
     Bar Plots and Histograms: For age distribution, gender breakdown, and length of stay.
     Top Feature Visualizations: Feature importance plotted using sns.barplot.
 
-   b)Interactive Data Exploration
+   b) Interactive Data Exploration
    
      The dashboard offers rich interactivity powered by Plotly and Pandas:
 
@@ -153,28 +154,28 @@ This project focuses on predicting hospital readmissions for heart failure patie
 
 
 🛠️STRUCTURE
-
-CSV Files (MIMIC-III) 
-    ↓
-Data Cleaning & Feature Engineering (Notebook)
-    ↓
-Model Training (XGBoost)
-    ↓
-Model Evaluation (classification_report, AUC)
-    ↓
-Streamlit UI with RandomForest on Simulated Data
-    ↓
-Interactive Risk Prediction + Visualization + Health Tools
+      
+      CSV Files (MIMIC-III) 
+          ↓
+      Data Cleaning & Feature Engineering (Notebook)
+          ↓
+      Model Training (XGBoost)
+          ↓
+      Model Evaluation (classification_report, AUC)
+          ↓
+      Streamlit UI with RandomForest on Simulated Data
+          ↓
+      Interactive Risk Prediction + Visualization + Health Tools
 
 
 📈 Model Performance
 
-Accuracy: ~86%
-Precision: ~90%
-f1 Score: ~87%
-Confusion Matrix:  [[10  1]
-                   [ 2  9]]
-Key Features: Age, BMI, Heart Rate, Blood Pressure, Diabetes, Smoking, Cholesterol
+      Accuracy: ~86%
+      Precision: ~90%
+      f1 Score: ~87%
+      Confusion Matrix:  [[10  1]
+                         [ 2  9]]
+      Key Features: Age, BMI, Heart Rate, Blood Pressure, Diabetes, Smoking, Cholesterol
 
 
 🚀 Future Scope

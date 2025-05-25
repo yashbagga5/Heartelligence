@@ -18,11 +18,14 @@ This project focuses on predicting hospital readmissions for heart failure patie
 
 - MIMIC-III dataset integration📁 
 - Data preprocessing and heart failure diagnosis filtering⚙️ 
-- Machine learning prediction of readmission risk (using XGBoost and RandomForest)🤖 
-- Health trends visualization📈 
+- Machine learning prediction of readmission risk 🤖 
+- Health trends visualization📈
+- Basic Health Matrices🔬
+- Patient Comparison🥼
 - Risk score calculator🧠 
 - Correlation and anomaly detection📉 
-- Health journaling and lifestyle tracking🧾 
+- Health journaling👨‍⚕️
+- Lifestyle tracking🧾 
 - Emergency preparedness guidance🚨 
 - Summary and performance reports📋 
 
@@ -155,8 +158,15 @@ This project focuses on predicting hospital readmissions for heart failure patie
       - scikit-learn: For scaling, training, and evaluating models.
       - streamlit: For building real-time, interactive dashboards.
 
+📂 Project Structure
+      
+      ├── Untitled1.ipynb                # Data analysis and model building in Jupyter Notebook
+      ├── app.py                         # Streamlit dashboard code
+      ├── README.md                      # Project documentation (this file)
+      └── data/                          # Directory for MIMIC-III CSVs (e.g., ADMISSIONS.csv, DIAGNOSES_ICD.csv)
 
-🛠️STRUCTURE
+
+🛠️ FLOW CHART
       
       CSV Files (MIMIC-III) 
           ↓
